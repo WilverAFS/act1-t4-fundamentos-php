@@ -194,7 +194,7 @@
             <h2> b) Uso de operadores</h2>
             <p>
                 Para hacer uso de los operadores puedes hacer uso de la variables en la URL del navegador. <br>
-                Por ejemplo agrega lo siguiente: <br> <code> /index.php?a=12&b=17</code> <br>
+                Por ejemplo agrega lo siguiente: <br> <code> index.php?a=12&b=17</code> <br>
             </p>
             <?php
             $a = existeParametro("a", true);
@@ -257,7 +257,7 @@
             h3("Logicos");
             print "Para estos operadores introdusca valores booleanos en la URL";
             saltarLinea();
-            print "Por ejemplo agrega lo siguiente: <br> <code> /index.php?a=true&b=false</code> <br>";
+            print "Por ejemplo agrega lo siguiente: <br> <code>index.php?a=true&b=false</code> <br>";
             saltarLinea();
             echo "Y logico (a && b): ($a && $b) : ";
             var_dump($a && $b);
@@ -277,7 +277,7 @@
             </p>
             <p>
                 Nuevamente pruebe a introducir sus propios valores para las variables a y b directamente en le URL del navegador. <br>
-                Por ejemplo agrega lo siguiente: <br> <code> /index.php?a=3&b=7</code> <br>
+                Por ejemplo agrega lo siguiente: <br> <code>index.php?a=3&b=7</code> <br>
             </p>
 
             <?php
@@ -336,7 +336,7 @@
             </p>
             <p>
                 Nuevamente pruebe a introducir sus propios valores para las variables a y b directamente en la URL del navegador. <br>
-                Por ejemplo agrega lo siguiente: <br> <code>/index.php?a=3&b=7</code> <br>
+                Por ejemplo agrega lo siguiente: <br> <code>index.php?a=3&b=7</code> <br>
             </p>
             <?php
             h3("Ciclo for");
@@ -364,7 +364,7 @@
             h3("Ciclo foreach");
             echo "Uno de los usos de este tipo de ciclo es recorrer un arreglo.";
             saltarLinea();
-            print "Prueba ingresando un arreglo en la variable (c): <br> <code>/index.php?c[]=2&c[]=4&c[]=6</code> <br>";
+            print "Prueba ingresando un arreglo en la variable (c): <br> <code>index.php?c[]=2&c[]=4&c[]=6</code> <br>";
             saltarLinea();
 
 
@@ -396,7 +396,7 @@
             h3("Promedio de un arreglo");
             echo "La siguiente funcion es promedio(), recibe como parametro un arreglo y retorna el promedio de sus elementos.";
             saltarLinea();
-            print "Prueba modificando el arreglo de la variable (c): <br> <code>/index.php?c[]=90&c[]=80&c[]=70</code> <br>";
+            print "Prueba modificando el arreglo de la variable (c): <br> <code>index.php?c[]=90&c[]=80&c[]=70</code> <br>";
 
             saltarLinea();
             echo "Promedio del arreglo: " . promedio($c) . "<br>";
@@ -404,7 +404,7 @@
             h3("Saltar linea");
             echo "La siguiente funcion es saltarLinea(), recibe como parametro un numero y salta esa cantidad de lineas.";
             saltarLinea();
-            print "Prueba indicando una cantidad de lineas a saltar en la variable (l): <br> <code>/index.php?l=3</code> <br>";
+            print "Prueba indicando una cantidad de lineas a saltar en la variable (l): <br> <code>index.php?l=3</code> <br>";
             saltarLinea();
             if (isset($_GET['l'])) {
                 $l = $_GET['l'];
