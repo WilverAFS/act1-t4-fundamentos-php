@@ -43,9 +43,9 @@ echo $persona["nombre"]; // Wilver
 ---
 
 **d) Enlace del script funcionando en el VPS**  
-Aquí debes pegar la URL de tu servidor donde subiste el archivo. Ejemplo:  
+
 ```
-http://10.12.3.12/AMNact1t4/
+http://2.24.77.138/WAFSact1t4/
 ```
 
 ---
